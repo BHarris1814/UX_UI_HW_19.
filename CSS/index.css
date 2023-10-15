@@ -1,0 +1,37 @@
+
+.header {
+    background-color: #fff6bf;
+    text-align: center;
+    padding: 20px;
+}
+.inline-block {
+    display: inline-block;
+}
+.p.b.b {
+    font-family: sans-serif;
+
+}
+
+.body {
+        background-color: #FFFEEC;
+      }
+
+  .footer-content-right {
+    padding-right:40px;
+    margin-top:20px;
+    float:right;
+  }
+  
+  .icon-style {
+    height:40px;
+    margin-left:20px;
+    margin-top:5px;
+  }
+  
+  .icon-style:hover {
+    background-color:yellow;
+    padding:5px;
+  }
+  
+  
+  

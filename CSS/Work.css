@@ -1,0 +1,42 @@
+.section-heading {
+    text-align:center;
+    color:#102C4E;
+    margin-top: 150px;
+    margin-bottom:70px;
+    font-size: 45px;
+  }
+  
+  /* Sizing for Project Containers  */
+  
+  .column-4 {
+    float: left;
+    width: 21%;
+    padding: 10px;
+    margin:20px;
+    height: 325px;
+  }
+  
+ 
+
+ 
+      
+  div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  img {width: 100%}
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  @media screen and (max-width: 600px) 
+    
+    .section-heading {
+        font-size: 30px; 
+        margin-top: 50px; 
+        margin-bottom: 30px; 
+    }
