@@ -5,7 +5,10 @@
     margin-bottom:70px;
     font-size: 45px;
   }
-  
+  .p.b.b {
+    font-family: sans-serif;
+
+}
   /* Sizing for Project Containers  */
   
   .column-4 {
@@ -16,27 +19,76 @@
     height: 325px;
   }
   
- 
-
- 
-      
-  div.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  footer {
+    background-color: #86908f;
+    padding-right: 25px;
+    color: #FFF6BF;
+    
+  }
+  footer ul {
+    list-style: none;
+    padding-right  150px;
+  }
+  footer li {
+    display: inline-flex;
+    padding: 10px 70px;
+  }
+  .footer-content-right {
+    padding-right:40px;
+    margin-top:20px;
+    float:right;
+  }
+  .myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #EBEBEB;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+  }
+  .workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
   }
   
-  img {width: 100%}
-  
-  div.container {
-    text-align: center;
-    padding: 10px 20px;
-  }
 
-  @media screen and (max-width: 600px) 
+  @media screen and (max-width: 600px) {
+
+  }
     
     .section-heading {
         font-size: 30px; 
         margin-top: 50px; 
         margin-bottom: 30px; 
     }
+   
+   

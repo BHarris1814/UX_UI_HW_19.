@@ -16,11 +16,24 @@
         background-color: #FFFEEC;
       }
 
-  .footer-content-right {
-    padding-right:40px;
-    margin-top:20px;
-    float:right;
-  }
+     footer {
+        background-color: #86908f;
+        padding-right: 25px;
+        color: #FFF6BF;
+        }
+      .footer ul {
+        list-style: none;
+        padding-right  150px;
+      }
+      .footer li {
+        display: inline-flex;
+        padding: 10px 70px;
+      }
+      .footer-content-right {
+        padding-right:40px;
+        margin-top:20px;
+        float:right;
+      }
   
   .icon-style {
     height:40px;
