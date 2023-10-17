@@ -19,25 +19,7 @@
     height: 325px;
   }
   
-  footer {
-    background-color: #86908f;
-    padding-right: 25px;
-    color: #FFF6BF;
-    
-  }
-  footer ul {
-    list-style: none;
-    padding-right  150px;
-  }
-  footer li {
-    display: inline-flex;
-    padding: 10px 70px;
-  }
-  .footer-content-right {
-    padding-right:40px;
-    margin-top:20px;
-    float:right;
-  }
+  
   .myWork {
     padding: 60px 30px;
     padding-top: 0;
@@ -88,7 +70,41 @@
     .section-heading {
         font-size: 30px; 
         margin-top: 50px; 
-        margin-bottom: 30px; 
+        margin-bottom: 50px; 
     }
    
-   
+    .footer {
+      position:flex;
+      bottom:0;
+      left: 10px;;
+      width: 100%;
+      height: 90px;
+      background-color: #86908f;
+    }
+    .footer-text-center{
+      font-size:35px;
+      padding:10px;
+      float:left;
+      word-spacing:50px;
+    }
+    
+    a.menu:hover {
+      background-color:#FFF6BF;
+      font-size:20px;
+    }
+    .footer-content-right {
+      padding-right:40px;
+      margin-top:20px;
+      float:right;
+    }
+    
+    .icon-style {
+      height:40px;
+      margin-left:20px;
+      margin-top:5px;
+    }
+    
+    .icon-style:hover {
+      background-color:#FFFEEC;
+      padding:5px;
+    }
