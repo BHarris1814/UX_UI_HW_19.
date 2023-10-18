@@ -11,7 +11,9 @@
     font-family: sans-serif;
 
 }
-
+img {
+  border-radius: 50%;
+}
 
 
       .footer {
